@@ -2,7 +2,7 @@ from tkinter import Tk, Label, DoubleVar, Entry, Button, Text
 
 # Window properties
 window = Tk()
-window.config(background="orange")
+window.config(background="#D9D37E")
 window.title("Calculator App")
 window.geometry("400x300")
 window.resizable(width=False, height=False)
@@ -65,19 +65,19 @@ result_entry.grid(column=0, row=1, padx=15, pady=15, ipady=5)
 result_entry.delete(0, 'end')
 
 # buttons 
-btn_add = Button(window, text="+", width=5, bg="black", fg="white", command=add_operation)
+btn_add = Button(window, text="+", width=10, bg="#A65A49", fg="white", command=add_operation)
 btn_add.grid(column=0, row=3, padx=15, pady=15,)
 
-btn_less = Button(window, text="-", width=5,  bg="black", fg="white", command=less_operator)
+btn_less = Button(window, text="-", width=10,  bg="#A65A49", fg="white", command=less_operator)
 btn_less.grid(column=1, row=3, padx=15, pady=15)
 
-btn_mult = Button(window, text="*", width=5,  bg="black", fg="white", command=multiply)
+btn_mult = Button(window, text="*", width=10,  bg="#A65A49", fg="white", command=multiply)
 btn_mult.grid(column=0, row=4, padx=15, pady=15)
 
-btn_div = Button(window, text="/", width=5,  bg="black", fg="white", command=divide)
+btn_div = Button(window, text="/", width=10,  bg="#A65A49", fg="white", command=divide)
 btn_div.grid(column=1, row=4, padx=15, pady=15)
 
-btn_clear = Button(window, text="C", width=5,  bg="black", fg="white", command=clear)
+btn_clear = Button(window, text="C", width=10,  bg="#A65A49", fg="white", command=clear)
 btn_clear.grid(column=1, row=1, padx=15, pady=15)
 
 
