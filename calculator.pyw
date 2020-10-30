@@ -2,7 +2,7 @@ from tkinter import Tk, Label, DoubleVar, Entry, Button, Text
 
 # Window properties
 window = Tk()
-window.config(background="#D9D37E")
+window.config(background="#BFB999")
 window.title("Calculator App")
 window.geometry("400x300")
 window.resizable(width=False, height=False)
